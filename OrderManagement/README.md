@@ -1,0 +1,3 @@
+There are three interfaces given and one OrdersIterator. The interface abstractizes the concept of new order and cancel replaces. For each new order I will get the basic parameters of the order, and for cancel replace I will find the changing parameters. Market orders are indicated by price which is Double.NaN and sell orders are indicated by the negative sign on the quantity.
+
+I will write a program that takes a message iterator and a Boolean variable. The program pulls messages from the iterator and builds the books as necessary. If the Boolean is true, after each message the program will also print the best bid and ask for the name that the message belonged to.

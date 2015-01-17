@@ -1,0 +1,1 @@
+I will use monte carlo model to price all the options. Meanwhile, I will use two libraies: Common-Math and joda-time.
